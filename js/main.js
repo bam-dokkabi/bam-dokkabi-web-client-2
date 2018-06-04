@@ -54,7 +54,7 @@ $(function() {
 		isPopupOn = false;
 		$(".pop1,.pop2,.pop3,.pop4,.pop5")
 		.animate({top:"-1000px"}, 300,function(){
-			$(".pop1,.pop2,.pop3,.pop4,.pop5,.pop01_wrapper1,.pop01_wrapper2").addClass("noshow");
+			$(".pop1,.pop2,.pop3,.pop4,.pop5,.pop01_wrapper1,.pop01_wrapper2,.pop02_wrapper2,.pop02_wrapper3,.pop03_wrapper2,.pop03_wrapper3,.pop04_wrapper2,.pop04_wrapper3,.pop05_wrapper2,.pop05_wrapper3").addClass("noshow");
 		});
 		$(".pop_bg").fadeOut(500).addClass("noshow");
 		return;
